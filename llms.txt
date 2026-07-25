@@ -1,0 +1,7 @@
+# Maya: AI Şef — AI recipe app (iOS, Turkish & English)
+
+> Maya is a pocket AI chef for iPhone. Users photograph their fridge or list ingredients and get 2 personalized recipes in ~30 seconds, with hands-free step-by-step cooking mode and an AI chat. It also analyzes calories and macros from a photo of a plate. Free daily recipes; Premium unlocks unlimited generation with a 7-day trial. App Store: https://apps.apple.com/app/id6749386118
+
+## Links
+- Website: https://necatidogrul.github.io/maya-site/
+- Developer: https://necatidogrul.dev
