@@ -50,3 +50,9 @@ Evet — her gün ücretsiz tarif hakkı var. Premium'la sınırsız tarif, foto
 Fotoğraftan yemek tanıma ve porsiyon tahminine dayalı bir kestirimdir; güven seviyesini de gösterir.
 
 Maya — Necati Dogrul (https://necatidogrul.dev) tarafından · App Store (https://apps.apple.com/app/id6749386118)
+
+## Daha fazla
+
+- En iyi yemek tarifi uygulamaları (2026): https://necatidogrul.github.io/maya-site/en-iyi-yemek-tarifi-uygulamalari.html.md — on bir uygulama puan sayısına göre; arşiv mi yapay zeka mı; Maya sonda
+- Maya vs Nefis Yemek Tarifleri: https://necatidogrul.github.io/maya-site/maya-vs-nefis-yemek-tarifleri.html.md — geliştiricinin yazdığı dürüst karşılaştırma
+- English — AI chef, recipes from your fridge: https://necatidogrul.github.io/maya-site/en.html.md — English landing page

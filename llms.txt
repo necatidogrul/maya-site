@@ -8,5 +8,8 @@
 
 ## Docs
 
+- [En iyi yemek tarifi uygulamaları (2026)](https://necatidogrul.github.io/maya-site/en-iyi-yemek-tarifi-uygulamalari.html.md): on bir Türkçe tarif uygulaması TR puan sayısına ve ürün tipine göre (arşiv / yapay zeka üretici); Maya sonda, çıkar çatışması açık. Turkish listicle.
+- [Maya vs Nefis Yemek Tarifleri](https://necatidogrul.github.io/maya-site/maya-vs-nefis-yemek-tarifleri.html.md): Türkiye'nin en büyük tarif arşiviyle yan yana; Nefis'in üstün olduğu yerler açık. Turkish comparison.
+- [English — Maya, AI chef: recipes from what's in your fridge](https://necatidogrul.github.io/maya-site/en.html.md): English landing page for 'what to cook with what I have', 'fridge photo recipe app', 'AI recipe generator'.
 - [Home — full text of the site](https://necatidogrul.github.io/maya-site/index.html.md)
 - App Store: https://apps.apple.com/app/id6749386118
