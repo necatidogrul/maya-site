@@ -1,71 +1,255 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Maya: AI Şef — Gizlilik Politikası</title>
+<title>Maya — Gizlilik Politikası</title>
+<meta name="description" content="Maya'nın gizlilik politikası: hangi veri cihazda kalır, ne sunucuya gider, hangi SDK ne toplar. İzleme yok, reklam SDK'sı yok, IDFA yok. Türkçe ve İngilizce.">
 <link rel="canonical" href="https://necatidogrul.github.io/maya-site/privacy.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#F7F4EE">
+<meta name="apple-itunes-app" content="app-id=6749386118">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px;
-         margin: 0 auto; padding: 40px 24px 80px; line-height: 1.65; color: #1C1915; background: #FBF7F0; }
-  h1 { font-size: 28px; margin-bottom: 4px; }
-  .updated { color: #6B625B; font-size: 14px; margin-bottom: 32px; }
-  h2 { font-size: 19px; margin-top: 32px; }
-  a { color: #7A8C6E; }
-  .lang { margin-top: 56px; padding-top: 24px; border-top: 1px solid #EFEBE3; }
+:root{
+  --cream:#F7F4EE; --green:#2A3B2E; --accent:#A35034;
+  --paper:#FFFDF8; --muted:#5A6157; --line:#2A3B2E1F;
+  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--green);font:17px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:740px;margin:0 auto;padding:56px 24px 88px}
+a{color:var(--accent)}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,5.4vw,42px);line-height:1.12;letter-spacing:-.015em}
+.updated{color:var(--muted);font-size:14px;margin-top:10px}
+h2{font-family:var(--serif);font-weight:700;font-size:23px;margin:40px 0 10px;line-height:1.25}
+h3{font-family:var(--serif);font-weight:700;font-size:19px;margin:24px 0 6px}
+p{margin-bottom:12px}
+p,li{color:var(--muted)}
+p strong,li strong,td strong{color:var(--green)}
+ul,ol{margin:0 0 14px 22px}
+li{margin-bottom:7px}
+.summary{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:24px 26px;margin-top:28px}
+.summary ul{margin-bottom:0}
+table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px 10px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+th{color:var(--green);font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase}
+.note{border-left:3px solid var(--accent);padding-left:16px;margin:18px 0}
+hr{border:0;border-top:1px solid var(--line);margin:56px 0 0}
+footer{margin-top:40px;font-size:14px;color:var(--muted)}
+footer a{color:var(--muted)}
+.langswitch{font-size:14px;margin-top:22px}
 </style>
 </head>
 <body>
+<div class="wrap">
 
-<h1>Maya: AI Şef — Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 27 Ağustos 2026</p>
+<h1>Maya — Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 23 Eylül 2026 · Uygulama sürümü 3.0 · <a href="#english">English version below</a></p>
 
-<h2>Ne saklıyoruz</h2>
-<p>Tarifleriniz, favorileriniz, mutfak tercihleriniz ve haftalık planınız <strong>cihazınızda</strong>
-saklanır. Hesap açmanız gerekmez; adınızı, e-postanızı veya telefon numaranızı istemiyoruz.</p>
-
-<h2>Sunucuya ne gidiyor</h2>
-<p>Bir tarif üretildiğinde yazdığınız malzemeler veya çektiğiniz fotoğraf, tarifi hazırlayan
-yapay zekâ servisine iletilir. Fotoğraflar tarif veya besin analizi üretmek için işlenir ve
-<strong>kalıcı olarak saklanmaz</strong>. Ürün geliştirmek için hangi ekranların kullanıldığına
-dair kimliksiz kullanım olayları toplanır; bu olaylar oturum başına üretilen ve cihaza
-yazılmayan geçici bir kimlik taşır, sizi oturumlar arasında takip etmez.</p>
-
-<h2>Satın almalar</h2>
-<p>Ödemeler Apple üzerinden yapılır; kart bilgilerinizi görmeyiz. Abonelik durumunuz RevenueCat
-üzerinden yönetilir. İade taleplerinde Apple bizden bilgi isterse, Apple'ın kendi sistemi
-üzerinden sınırlı satın alma verisi (hesap yaşı, dönemin ne kadarının geçtiği, satın alma ve iade
-geçmişi) iletilir — ayrıntı: <a href="terms.html">Kullanım Şartları</a>.</p>
-
-<h2>Bildirimler</h2>
-<p>İzin verirseniz günde bir akşam kararı bildirimi gönderilir. İzni istediğiniz zaman iOS
-Ayarlar'dan kapatabilirsiniz.</p>
-
-<h2>Silme</h2>
-<p>Uygulamayı silmek cihazdaki tüm verilerinizi siler. Sunucuda size ait kalıcı bir profil
-tutulmadığı için ayrıca bir silme talebi göndermenize gerek yoktur.</p>
-
-<h2>İletişim</h2>
-<p><a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a></p>
-
-<div class="lang">
-<h1 style="font-size:22px">Privacy Policy (English)</h1>
-<p><strong>On your device.</strong> Recipes, favourites, preferences and your weekly plan are
-stored locally. No account, no name, no email, no phone number.</p>
-<p><strong>What leaves the device.</strong> Ingredients you type or a photo you take are sent to
-the AI service that produces the recipe. Photos are processed to produce a recipe or a nutrition
-estimate and are <strong>not stored permanently</strong>. Anonymous usage events are collected to
-improve the product; they carry a session identifier created in memory and never written to disk,
-so they do not follow you between sessions.</p>
-<p><strong>Purchases.</strong> Payments go through Apple; we never see your card. Subscription
-state is managed via RevenueCat. If Apple requests information to review a refund, a limited set
-of purchase data is sent through Apple's own system — see <a href="terms.html">Terms</a>.</p>
-<p><strong>Notifications.</strong> With permission, one evening decision notification per day.
-Revoke any time in iOS Settings.</p>
-<p><strong>Deletion.</strong> Deleting the app deletes your data; no persistent server-side
-profile exists.</p>
-<p>Contact: <a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a></p>
+<div class="summary">
+<p><strong>Kısaca:</strong></p>
+<ul>
+  <li>Hesap açmıyorsun. Adını, e-postanı, telefon numaranı istemiyoruz ve bilmiyoruz.</li>
+  <li>Menün, market listen, favorilerin ve tercihlerin <strong>cihazında</strong> durur.</li>
+  <li>Tarif üretirken yazdığın malzeme, tercihlerin ve — kullanırsan — fotoğrafın yapay zekâ modeline gider. <strong>Fotoğraflar saklanmaz.</strong></li>
+  <li><strong>İzleme yapılmıyor.</strong> Reklam SDK'sı, izleme SDK'sı ve IDFA yok; verilerin reklam ya da ölçüm için üçüncü taraf verisiyle eşleştirilmiyor.</li>
+  <li>Verin satılmıyor, veri simsarlarına aktarılmıyor.</li>
+</ul>
 </div>
 
+<h2>1. Veri sorumlusu</h2>
+<p>Maya'yı bağımsız bir iOS geliştiricisi olan <strong>Necati Doğrul</strong> yayımlıyor. KVKK anlamında veri sorumlusu, GDPR anlamında "controller" odur. İletişim: <a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a>.</p>
+
+<h2>2. Cihazında kalanlar</h2>
+<p>Şunlar telefonundan hiç çıkmaz: haftalık menün, market listen, favori tarifler, damak tercihlerin, alerji ve sevmediklerin listesi, porsiyon ayarların, uygulama ayarları ve indirilmiş tarif görsellerinin önbelleği. Bunlar için sunucuda sana ait bir hesap ya da profil yoktur.</p>
+
+<h2>3. Cihazdan çıkanlar</h2>
+<h3>3.1 Yapay zekâ ile tarif ve menü üretimi</h3>
+<p>Bir menü, tarif, besin bilgisi ya da sohbet cevabı ürettiğinde şunlar sunucuya gider: <strong>yazdığın veya söylediğin malzemeler</strong>, <strong>mutfak/diyet tercihlerin</strong> (ör. vejetaryen, glutensiz), <strong>kaç kişi için pişirdiğin</strong>, dil tercihin ve — o özelliği kullanırsan — <strong>çektiğin fotoğraf</strong>.</p>
+<p>Bu istek önce bize ait <strong>Firebase Cloud Functions</strong> sunucularına gider (Google Cloud, <strong>europe-west3 / Frankfurt</strong> bölgesi), oradan <strong>Google Gemini</strong> modeline iletilir ve cevap sana döner. Yani girdilerin Google'ın yapay zekâ servisine ulaşıyor; bunu açıkça yazıyoruz çünkü bu, uygulamanın çalışma biçiminin bir parçası.</p>
+
+<h3>3.2 Fotoğraflar</h3>
+<p>Buzdolabı fotoğrafı ve tabak fotoğrafı, isteğin gövdesinde sunucuya gönderilir, modele iletilir ve cevap üretildikten sonra <strong>bırakılır</strong>. Hiçbir dosya depolamaya yazılmaz, hiçbir veritabanı satırına kaydedilmez, hiçbir kopyası tutulmaz.</p>
+<div class="note">
+<p>Bunun dayanağı bir söz değil, yapılandırma: bulut depolamamızda istemciye açık tek yazma yolu yoktur (depolama kuralları her türlü istemci yazmasını reddeder) ve fotoğrafı işleyen iki fonksiyon da sonucu döndürdükten sonra görüntüyü hiçbir yere yazmaz. Depolamada yalnızca <strong>bizim</strong> yemek kataloğumuz ve tarif fotoğraflarımız bulunur.</p>
+</div>
+
+<h3>3.3 Kullanım ölçümü</h3>
+<p>Hangi ekranların açıldığını ve hangi adımlarda vazgeçildiğini <strong>Firebase Analytics</strong> ile ölçüyoruz — onboarding'i ve ödeme ekranını düzeltebilmek için. Bu olaylar ekran adları ve buton dokunuşlarıdır; içine yazdığın malzeme, tarif metni ya da fotoğraf girmez.</p>
+
+<h2>4. Kullandığımız servisler</h2>
+<table>
+<tr><th>Servis</th><th>Ne için</th><th>Ne alıyor</th></tr>
+<tr><td><strong>Firebase Analytics</strong> (Google)</td><td>Kullanım ölçümü, huni analizi</td><td>Kullanım olayları (ekran/dokunuş), cihaz tanımlayıcı (Firebase kurulum kimliği), cihaz modeli, dil, ülke</td></tr>
+<tr><td><strong>Firebase App Check</strong> (Google)</td><td>İsteğin gerçek bir Maya kurulumundan geldiğini doğrulamak</td><td>Apple'ın App Attest doğrulama jetonu. Kişisel veri taşımaz</td></tr>
+<tr><td><strong>Firebase Cloud Functions + Gemini</strong> (Google)</td><td>Tarif, menü, besin ve sohbet üretimi</td><td>Malzemeler, tercihler, dil ve varsa fotoğraf (§3.1–3.2)</td></tr>
+<tr><td><strong>RevenueCat</strong></td><td>Abonelik durumunu yönetmek ve Pro'yu açmak</td><td>Anonim uygulama kullanıcı kimliği (app user ID), satın alma ve yenileme geçmişi, ülke, platform</td></tr>
+<tr><td><strong>Kingfisher</strong></td><td>Tarif görsellerini indirip cihazda önbelleğe almak</td><td>Hiçbir şey göndermez; açık kaynak bir görsel önbelleği kütüphanesidir</td></tr>
+<tr><td><strong>Apple</strong></td><td>Satın alma ve abonelik</td><td>Ödemeyi Apple alır. Kart bilgilerini hiçbir zaman görmeyiz</td></tr>
+</table>
+<p><strong>Listede olmayanlar:</strong> reklam ağı yok, atıf/attribution SDK'sı yok, sosyal medya SDK'sı yok, çökme kaydı için ayrı bir üçüncü taraf yok, IDFA (reklam tanımlayıcısı) yok. Uygulama <code>AdSupport</code> çerçevesini bağlamaz, bu yüzden izleme izni (ATT) penceresi hiç açılmaz.</p>
+
+<h2>5. Kullanılan tanımlayıcılar</h2>
+<ul>
+  <li><strong>Kurulum kimliği</strong> — uygulamanın ürettiği rastgele bir UUID. Ücretsiz üretim hakkını saymak için kullanılır, cihazın <strong>anahtarlığında</strong> saklanır. Kimliğe bağlı değildir; adını ya da Apple Kimliğini içermez.</li>
+  <li><strong>Firebase kurulum kimliği</strong> — analitik olaylarını birbirine bağlayan, Google tarafından üretilen rastgele kimlik.</li>
+  <li><strong>RevenueCat app user ID</strong> — anonim abonelik kimliği. Maya'da giriş yapılmadığı için bu kimlik her zaman anonim kalır.</li>
+</ul>
+<div class="note">
+<p><strong>Dürüst olmak gerekirse:</strong> kurulum kimliği anahtarlıkta durduğu için uygulamayı silip yeniden kurduğunda <strong>aynı kalabilir</strong> (aynı cihaz ve aynı Apple Kimliğiyle) ve bir iCloud yedeğinden geri gelebilir. Bunu ücretsiz hakkın silme-kurma ile sıfırlanmaması için yapıyoruz. Cihazını değiştirirsen ya da tüm içeriği silersen yeni bir kimlikle başlarsın. Bu kimlik yalnızca kota sayacıdır; reklam için kullanılmaz ve kimseyle paylaşılmaz.</p>
+</div>
+
+<h2>6. Saklama süreleri</h2>
+<ul>
+  <li><strong>Fotoğraflar:</strong> saklanmaz (§3.2).</li>
+  <li><strong>Malzeme metni ve tarif istekleri:</strong> cevap üretildikten sonra saklanmaz.</li>
+  <li><strong>Günlük kota sayaçları:</strong> veritabanında otomatik silme (TTL) politikasıyla kendiliğinden silinir.</li>
+  <li><strong>Teknik ölçüm kayıtları</strong> (hangi görsel katmanının cevap verdiği, gecikme, model adı, dil): <strong>kullanıcı kimliği içermez</strong> ve aynı otomatik silme politikasına tabidir.</li>
+  <li><strong>Ömür boyu ücretsiz hak sayacı:</strong> "ömür boyu 2 üretim" sözü ancak sayaç kalıcı olursa anlamlı olduğu için bu tek sayı <strong>süresiz</strong> tutulur. İçeriği bir sayıdır, girdilerin değil.</li>
+  <li><strong>Analitik olayları:</strong> Google'ın Firebase Analytics saklama politikasına tabidir.</li>
+  <li><strong>Abonelik kayıtları:</strong> muhasebe ve abonelik yönetimi için RevenueCat ve Apple tarafında tutulur.</li>
+</ul>
+
+<h2>7. İzleme (Apple'ın tanımıyla)</h2>
+<p>Apple'ın tanımında "izleme", bir uygulamadan toplanan verinin hedefli reklam ya da reklam ölçümü için başka şirketlerin verisiyle eşleştirilmesi veya veri simsarlarına aktarılmasıdır.</p>
+<p><strong>Maya izleme yapmaz.</strong> Reklam tanımlayıcısı (IDFA) kullanılmaz, uygulamalar arası bir kimlik üretilmez, verilerin reklam veya ölçüm amacıyla üçüncü taraf verisiyle eşleştirilmez ve hiçbir veri simsarına aktarılmaz. App Store gizlilik etiketimizde de hiçbir veri türü "İzleme için kullanılan veriler" altında beyan edilmemiştir.</p>
+
+<h2>8. Bildirimler</h2>
+<p>İzin verirsen günde bir hatırlatma (kendi menünden o günün yemeği) ve market gününde bir hatırlatma daha gönderilir. Bildirimler cihazda zamanlanır. İzni istediğin an iOS Ayarlar → Bildirimler → Maya'dan kapatabilirsin.</p>
+
+<h2>9. Verilerini silmek</h2>
+<ol>
+  <li><strong>Cihazdakiler:</strong> uygulamayı silmek menünü, listeni, favorilerini, tercihlerini ve görsel önbelleğini siler.</li>
+  <li><strong>Anahtarlıktaki kurulum kimliği:</strong> uygulama silinince kalabilir (§5). Tamamen temizlemek için <a href="mailto:support@necatidogrul.dev?subject=Veri%20silme%20talebi">support@necatidogrul.dev</a> adresine yaz; sunucudaki kota sayaçlarını sileriz.</li>
+  <li><strong>Abonelik kaydı:</strong> aynı adrese yazarsan RevenueCat tarafındaki anonim abone kaydının silinmesini talep edebilirsin. ⚠️ Bu kayıt silinirse <strong>satın almanı geri yükleme</strong> ihtimalin zorlaşır; aboneliğin hâlâ Apple tarafında duruyorsa iptali Apple hesap ayarlarından yapman gerekir.</li>
+  <li><strong>Analitik:</strong> talep üzerine, cihazının Firebase kurulum kimliğine bağlı analitik kayıtlarının silinmesini Google'dan isteriz.</li>
+</ol>
+<p>Talepleri 30 gün içinde yanıtlıyoruz. Hesap olmadığı için kimliğini doğrulamamız mümkün değil; bu yüzden talebini gönderdiğin cihazdan yazman yeterli.</p>
+
+<h2>10. Çocukların gizliliği</h2>
+<p>Maya çocuklara yönelik bir uygulama değildir ve App Store'da Kids kategorisinde yer almaz. Bilerek 13 yaşından (Avrupa Birliği'nde ilgili ülkenin belirlediği yaştan, genellikle 16) küçük çocuklardan veri toplamayız. Böyle bir veri toplandığını fark edersek sileriz; çocuğunun verisinin bize ulaştığını düşünen bir veli bize yazabilir.</p>
+
+<h2>11. Haklarınız (KVKK ve GDPR)</h2>
+<p>Türkiye'de 6698 sayılı KVKK ve Avrupa Birliği'nde GDPR kapsamında şu haklara sahipsiniz: işlenen verilere <strong>erişim</strong>, <strong>düzeltme</strong>, <strong>silme</strong>, <strong>işlemenin kısıtlanması</strong>, <strong>veri taşınabilirliği</strong>, <strong>itiraz</strong> ve rıza verilmiş bir işleme için <strong>rızayı geri çekme</strong>.</p>
+<p>İşleme dayanaklarımız: uygulamanın istediğin işi yapabilmesi için gereken veride <strong>sözleşmenin ifası</strong>; kullanım ölçümünde ve uygulama bütünlüğünde <strong>meşru menfaat</strong>; bildirimlerde ve fotoğraf/mikrofon erişiminde ise <strong>açık rıza</strong> (iOS izin penceresiyle verdiğin izin).</p>
+<p>Haklarını kullanmak için <a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a> adresine yazman yeterli. Türkiye'de Kişisel Verileri Koruma Kurumu'na, AB'de ise bulunduğun ülkenin veri koruma otoritesine şikâyette bulunma hakkın da vardır.</p>
+
+<h2>12. Yurt dışına aktarım</h2>
+<p>Yapay zekâ istekleri Google Cloud'un <strong>europe-west3 (Frankfurt, Almanya)</strong> bölgesinde işlenir. Google ve RevenueCat, altyapılarının bir bölümünü Amerika Birleşik Devletleri'nde çalıştırır; bu aktarımlar sağlayıcıların standart sözleşme hükümleri (SCC) ve veri işleme sözleşmeleri kapsamında gerçekleşir.</p>
+
+<h2>13. Değişiklikler</h2>
+<p>Bu sayfa değişirse yukarıdaki tarih güncellenir. Toplanan veri türü genişlerse bunu uygulama içinde de duyururuz.</p>
+
+<h2>14. İletişim</h2>
+<p><a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a> · Genellikle 48 saat içinde yanıtlıyoruz.</p>
+
+<hr>
+
+<h1 id="english">Maya — Privacy Policy (English)</h1>
+<p class="updated">Last updated: 23 September 2026 · App version 3.0</p>
+
+<div class="summary">
+<p><strong>In short:</strong></p>
+<ul>
+  <li>There is no account. We do not ask for and do not know your name, email or phone number.</li>
+  <li>Your plan, your shopping list, your favourites and your preferences stay <strong>on your device</strong>.</li>
+  <li>When a recipe is generated, the ingredients you type, your preferences and — if you use it — your photo go to the AI model. <strong>Photos are not stored.</strong></li>
+  <li><strong>We do not track you.</strong> No advertising SDK, no tracking SDK, no IDFA; your data is never linked with third-party data for advertising or measurement.</li>
+  <li>We do not sell your data and do not share it with data brokers.</li>
+</ul>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>Maya is published by <strong>Necati Dogrul</strong>, an independent iOS developer, who is the data controller under GDPR and the Turkish KVKK. Contact: <a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a>.</p>
+
+<h2>2. What stays on your device</h2>
+<p>Your weekly plan, your shopping list, saved recipes, taste preferences, allergies and dislikes, portion settings, app settings and the cache of downloaded recipe photographs never leave your phone. There is no account or profile for you on any server.</p>
+
+<h2>3. What leaves your device</h2>
+<h3>3.1 AI recipe and plan generation</h3>
+<p>When a plan, recipe, nutrition estimate or chat answer is generated, the following is sent: <strong>the ingredients you type or say</strong>, <strong>your cuisine and dietary preferences</strong> (e.g. vegetarian, gluten-free), <strong>how many people you are cooking for</strong>, your language, and — if you use that feature — <strong>the photo you take</strong>.</p>
+<p>The request goes first to our own <strong>Firebase Cloud Functions</strong> (Google Cloud, <strong>europe-west3 / Frankfurt</strong>), which pass it to the <strong>Google Gemini</strong> model and return the answer. So your input does reach Google's AI service, and we say so plainly because it is how the app works.</p>
+
+<h3>3.2 Photos</h3>
+<p>A fridge photo or a plate photo is sent inside the request, passed to the model, and <strong>dropped</strong> once the answer is produced. No file is written to storage, no row is written to a database, no copy is kept.</p>
+<div class="note">
+<p>This rests on configuration rather than a promise: our storage rules reject every client write, and neither of the two functions that handle a photo writes the image anywhere after returning its result. The only things in our storage are <strong>our own</strong> dish catalogue and recipe photographs.</p>
+</div>
+
+<h3>3.3 Usage measurement</h3>
+<p>We use <strong>Firebase Analytics</strong> to see which screens are opened and where people drop out, so we can fix onboarding and the purchase screen. These events are screen names and button taps; they never include the ingredients you typed, recipe text, or a photo.</p>
+
+<h2>4. Services we use</h2>
+<table>
+<tr><th>Service</th><th>Purpose</th><th>What it receives</th></tr>
+<tr><td><strong>Firebase Analytics</strong> (Google)</td><td>Usage measurement, funnel analysis</td><td>Usage events (screen / tap), a device identifier (Firebase installation ID), device model, language, country</td></tr>
+<tr><td><strong>Firebase App Check</strong> (Google)</td><td>Verifying a request comes from a genuine Maya install</td><td>Apple's App Attest attestation token. Carries no personal data</td></tr>
+<tr><td><strong>Firebase Cloud Functions + Gemini</strong> (Google)</td><td>Recipe, plan, nutrition and chat generation</td><td>Ingredients, preferences, language and, if used, a photo (§3.1–3.2)</td></tr>
+<tr><td><strong>RevenueCat</strong></td><td>Managing subscription state and unlocking Pro</td><td>An anonymous app user ID, purchase and renewal history, country, platform</td></tr>
+<tr><td><strong>Kingfisher</strong></td><td>Downloading and caching recipe images on the device</td><td>Sends nothing; it is an open-source image caching library</td></tr>
+<tr><td><strong>Apple</strong></td><td>Purchases and subscriptions</td><td>Apple takes the payment. We never see your card details</td></tr>
+</table>
+<p><strong>What is not on this list:</strong> no ad network, no attribution SDK, no social SDK, no separate third-party crash reporter, and no IDFA. The app does not link Apple's <code>AdSupport</code> framework, which is why the App Tracking Transparency prompt never appears.</p>
+
+<h2>5. Identifiers we use</h2>
+<ul>
+  <li><strong>Install identifier</strong> — a random UUID the app generates to count your free generations, kept in the device <strong>keychain</strong>. It is not linked to your identity and contains neither your name nor your Apple ID.</li>
+  <li><strong>Firebase installation ID</strong> — a random identifier generated by Google that ties analytics events together.</li>
+  <li><strong>RevenueCat app user ID</strong> — an anonymous subscription identifier. There is no sign-in in Maya, so it always stays anonymous.</li>
+</ul>
+<div class="note">
+<p><strong>To be honest about it:</strong> because the install identifier lives in the keychain, it <strong>can survive deleting and reinstalling</strong> the app (same device, same Apple ID) and can come back from an iCloud backup. We do this so the free allowance cannot be reset by reinstalling. If you change devices or erase all content, you start with a new identifier. This identifier is only a usage counter; it is never used for advertising and is not shared with anyone.</p>
+</div>
+
+<h2>6. Retention</h2>
+<ul>
+  <li><strong>Photos:</strong> not stored (§3.2).</li>
+  <li><strong>Ingredient text and recipe requests:</strong> not stored once the answer is produced.</li>
+  <li><strong>Daily usage counters:</strong> deleted automatically by a time-to-live policy in the database.</li>
+  <li><strong>Technical telemetry</strong> (which image cache tier answered, latency, model name, language): contains <strong>no user identifier</strong> and is subject to the same automatic deletion policy.</li>
+  <li><strong>Lifetime free-allowance counter:</strong> a promise of "two free generations, ever" only means something if the counter persists, so this single number is kept <strong>indefinitely</strong>. Its content is a number, not your input.</li>
+  <li><strong>Analytics events:</strong> governed by Google's Firebase Analytics retention settings.</li>
+  <li><strong>Subscription records:</strong> kept by RevenueCat and Apple for subscription management and accounting.</li>
+</ul>
+
+<h2>7. Tracking (as Apple defines it)</h2>
+<p>Apple defines tracking as linking data collected from an app with third-party data for targeted advertising or advertising measurement, or sharing it with a data broker.</p>
+<p><strong>Maya does not track.</strong> No advertising identifier (IDFA) is used, no cross-app identifier is created, your data is never linked with third-party data for advertising or measurement, and nothing is shared with any data broker. No data type is declared under "Data Used to Track You" in our App Store privacy label.</p>
+
+<h2>8. Notifications</h2>
+<p>With your permission we send one reminder a day (tonight's dinner, from your own plan) plus one reminder on shopping day. Notifications are scheduled on the device. You can revoke permission any time in iOS Settings → Notifications → Maya.</p>
+
+<h2>9. Deleting your data</h2>
+<ol>
+  <li><strong>On the device:</strong> deleting the app removes your plan, list, favourites, preferences and image cache.</li>
+  <li><strong>The install identifier in the keychain:</strong> may survive deletion (§5). To clear it completely, write to <a href="mailto:support@necatidogrul.dev?subject=Data%20deletion%20request">support@necatidogrul.dev</a> and we will delete your usage counters on the server.</li>
+  <li><strong>Subscription record:</strong> write to the same address to request deletion of your anonymous RevenueCat record. ⚠️ If that record is deleted, <strong>restoring your purchase</strong> becomes harder; if the subscription is still active on Apple's side you must cancel it in your Apple account settings.</li>
+  <li><strong>Analytics:</strong> on request we ask Google to delete the analytics records tied to your device's Firebase installation ID.</li>
+</ol>
+<p>We answer requests within 30 days. Because there is no account we cannot verify your identity, so writing from the device in question is enough.</p>
+
+<h2>10. Children's privacy</h2>
+<p>Maya is not directed at children and is not in the App Store Kids category. We do not knowingly collect data from children under 13 (or the age set by your country in the EU, usually 16). If we learn that we have, we delete it; a parent who believes their child's data reached us can write to us.</p>
+
+<h2>11. Your rights (GDPR and KVKK)</h2>
+<p>Under GDPR in the EU and law no. 6698 (KVKK) in Türkiye you have the right to <strong>access</strong>, <strong>rectification</strong>, <strong>erasure</strong>, <strong>restriction of processing</strong>, <strong>data portability</strong>, <strong>objection</strong>, and to <strong>withdraw consent</strong> where processing is based on it.</p>
+<p>Our legal bases: <strong>performance of a contract</strong> for the data the app needs to do the job you asked for; <strong>legitimate interest</strong> for usage measurement and app integrity; and <strong>consent</strong> for notifications and for photo/microphone access (the permission you grant in the iOS prompt).</p>
+<p>To exercise a right, write to <a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a>. You also have the right to complain to your national data protection authority in the EU, or to the Personal Data Protection Authority (KVKK) in Türkiye.</p>
+
+<h2>12. International transfers</h2>
+<p>AI requests are processed in Google Cloud's <strong>europe-west3 (Frankfurt, Germany)</strong> region. Google and RevenueCat operate parts of their infrastructure in the United States; those transfers take place under the providers' standard contractual clauses and data processing agreements.</p>
+
+<h2>13. Changes</h2>
+<p>If this page changes, the date above changes. If the kinds of data we collect ever expand, we will also say so inside the app.</p>
+
+<h2>14. Contact</h2>
+<p><a href="mailto:support@necatidogrul.dev">support@necatidogrul.dev</a> · We usually reply within 48 hours.</p>
+
+<footer>
+<p><a href="./">Maya</a> · <a href="terms.html">Kullanım Şartları / Terms</a> · <a href="support.html">Destek / Support</a> · <a href="https://apps.apple.com/app/id6749386118">App Store</a></p>
+</footer>
+
+</div>
 </body>
 </html>

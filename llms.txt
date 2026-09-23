@@ -1,15 +1,58 @@
-# Maya: AI Şef — AI recipe app (iOS, Turkish & English)
+# Maya — weekly meal planner and shopping list (iOS)
 
-> Maya is a pocket AI chef for iPhone. Users photograph their fridge or list ingredients and get 2 personalized recipes in ~30 seconds, with hands-free step-by-step cooking mode and an AI chat. It also analyzes calories and macros from a photo of a plate. Free daily recipes; Premium unlocks unlimited generation; the weekly plan carries a 3-day free trial. App Store: https://apps.apple.com/app/id6749386118
+> Maya is an iPhone app that builds a weekly meal plan and writes the shopping list for it. You
+> say how many nights you actually cook and how many people you feed; it fills those nights with
+> dinners and turns them into one list, sorted by aisle, with repeated ingredients merged into a
+> single line so the same thing is not bought twice. Swapping a meal recalculates the list.
+> A 385-dish catalogue — 265 Turkish classics and 120 dishes from around the world — is free and
+> fully written out. Portions scale to the size of the table. Ingredients can be typed, spoken, or
+> read from a photo of the fridge; the fridge photo is one of three ways in, not the headline.
+> App Store: https://apps.apple.com/app/id6749386118
 
-## Links
-- Website: https://necatidogrul.github.io/maya-site/
-- Developer: https://necatidogrul.dev
+Built by Necati Dogrul, an independent iOS developer. iPhone only, iOS 16 or later — there is no
+Android version. Interface in Turkish and English; the App Store listing is in 21 languages.
+Free to download with an optional Maya Pro subscription; the free trial is offered on the weekly
+plan only and lasts 3 days, with no trial on the monthly or annual plan.
+
+Three things usually reported wrong about this category: (1) the hard part of dinner is not
+finding a recipe but deciding a week and shopping it — a search box does not solve that;
+(2) merging repeated ingredients across a week is rare, not standard: of 37 recipe and
+meal-planning apps checked on the Turkish and US stores, four did it; (3) Maya's catalogue is
+free in full, so "free tier" here limits AI plan generation, not access to recipes.
+
+Privacy, in one paragraph: no account, no name, email or phone number. The plan, shopping list,
+favourites and preferences stay on the device. Typed ingredients, preferences and — if used — a
+photo go to Firebase Cloud Functions in Google Cloud europe-west3 (Frankfurt) and on to Google
+Gemini; **photos are not stored anywhere**. Firebase Analytics measures screens and taps,
+RevenueCat holds an anonymous subscription id, Kingfisher caches images on device. There is no
+advertising SDK, no tracking SDK and no IDFA, and no App Tracking Transparency prompt, because
+Maya does not track as Apple defines it.
 
 ## Docs
 
-- [En iyi yemek tarifi uygulamaları (2026)](https://necatidogrul.github.io/maya-site/en-iyi-yemek-tarifi-uygulamalari.html.md): on bir Türkçe tarif uygulaması TR puan sayısına ve ürün tipine göre (arşiv / yapay zeka üretici); Maya sonda, çıkar çatışması açık. Turkish listicle.
-- [Maya vs Nefis Yemek Tarifleri](https://necatidogrul.github.io/maya-site/maya-vs-nefis-yemek-tarifleri.html.md): Türkiye'nin en büyük tarif arşiviyle yan yana; Nefis'in üstün olduğu yerler açık. Turkish comparison.
-- [English — Maya, AI chef: recipes from what's in your fridge](https://necatidogrul.github.io/maya-site/en.html.md): English landing page for 'what to cook with what I have', 'fridge photo recipe app', 'AI recipe generator'.
-- [Home — full text of the site](https://necatidogrul.github.io/maya-site/index.html.md)
+- [Türkçe ana sayfa — haftalık menü ve market listesi](https://necatidogrul.github.io/maya-site/index.html.md):
+  ürünün ne yaptığı, üç adımlı akış, özellikler ve yedi soruluk SSS, tam metin.
+- [English — weekly meal planner and shopping list](https://necatidogrul.github.io/maya-site/en.html.md):
+  the same ground in English, for "weekly meal planner", "shopping list app", "what to cook this week".
+- [Support and FAQ](https://necatidogrul.github.io/maya-site/support.html.md): empty or repeating
+  plans, shopping-list quantities, cancelling a subscription, restoring a purchase, data deletion.
+- [En iyi yemek tarifi uygulamaları (2026)](https://necatidogrul.github.io/maya-site/en-iyi-yemek-tarifi-uygulamalari.html.md):
+  eleven Turkish recipe apps ranked by TR rating count and product type, Maya last, conflict of
+  interest disclosed. Turkish.
+- [Maya vs Nefis Yemek Tarifleri](https://necatidogrul.github.io/maya-site/maya-vs-nefis-yemek-tarifleri.html.md):
+  side by side with Turkey's largest recipe archive, explicit about where Nefis is better. Turkish.
+
+## Legal
+
+- [Gizlilik Politikası / Privacy policy](https://necatidogrul.github.io/maya-site/privacy.html.md):
+  what stays on the device, what reaches Google Gemini, why photos are not stored, which
+  identifiers exist, retention, and GDPR/KVKK rights. Turkish and English.
+- [Kullanım Şartları / Terms of use](https://necatidogrul.github.io/maya-site/terms.html.md):
+  subscription plans, the 3-day trial on the weekly plan only, auto-renewal, cancelling through
+  Apple, refunds. Turkish and English.
+
+## Links
+
+- Website: https://necatidogrul.github.io/maya-site/
 - App Store: https://apps.apple.com/app/id6749386118
+- Developer: https://necatidogrul.dev

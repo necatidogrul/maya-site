@@ -31,14 +31,14 @@ ve sorduğunda cevap verir; arşiv tarifinde binlerce kişinin yorumu vardır.
 | CheffEye | 8 · 5,0★ | Bir yemeğin fotoğrafından tarifini çıkarır; kilerdekiyle tarif üretir | Restoranda beğendiğin tabağı evde yapmak istiyorsan |
 | Mealday | 7 · 4,4★ | Yapay zeka tarif önerileri, sağlıklı beslenme vurgusu; son güncelleme Şubat 2025 | — |
 | Şefim | 6 · 4,7★ | Buzdolabı fotoğrafından tarif + kişisel diyet programı (2026) | Tarifle birlikte diyet programı istiyorsan |
-| Maya (yazarın kendi uygulaması) | 3 · yeni | Fotoğraf, yazı veya sesle malzeme ver; damak zevkini öğrenen şef 30 saniyede 2 kişisel tarif yazar; seçtiğin saatte akşam kararını getirir; tabaktan kalori; adım adım eller serbest pişirme; tarif hakkında sohbet | "Bugün ne pişirsem" sorusuna elindekiyle cevap istiyorsan |
+| Maya (yazarın kendi uygulaması) | 3 · yeni | Haftalık menünü kurar ve market listeni reyona göre çıkarır; aynı malzeme iki yemekte geçiyorsa tek satırda birleşir; 385 yemeklik katalog ücretsiz ve tam tarifli; adım adım eller serbest pişirme; malzemeni yaz, söyle ya da buzdolabını fotoğrafla | Bir haftalık menü ve tek bir market listesi istiyorsan |
 
 ## Nasıl seçmeli
 
 - Denenmiş tarif, çok seçenek: Nefis Yemek Tarifleri.
 - Elindeki malzemeyle filtreleme: Yemek.com "evdeki malzemelerle tarif bul".
 - Öğrenmek: Kısık Ateş Akademi (şef tekniği, video) ya da Lokma (net ölçüler).
-- "Bugün ne pişirsem" sorusuna elindekiyle cevap: Maya (fotoğraf/ses → 30 saniyede 2 kişisel tarif; seçtiğin saatte akşam kararı).
+- Bir haftalık menü ve tek market listesi: Maya (kaç gün pişireceğini söyle → menü + reyona göre market listesi, miktarlar birleşik).
 
 ## İndirmeden önce bak
 
