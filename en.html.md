@@ -9,7 +9,7 @@
 - App Store: https://apps.apple.com/app/id6749386118
 - Platform: iPhone, iOS 16 or later · interface in English and Turkish · store listing in 21 languages
 - Developer: Necati Dogrul — https://necatidogrul.dev
-- Last updated: 23 September 2026 · app version 3.0
+- Last updated: 24 September 2026 · app version 3.0
 
 ## Your weekly meal planner, ready.
 

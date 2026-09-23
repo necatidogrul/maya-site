@@ -8,7 +8,7 @@
 - App Store: https://apps.apple.com/app/id6749386118
 - Website: https://necatidogrul.github.io/maya-site/
 - Geliştirici: Necati Doğrul — https://necatidogrul.dev
-- Son güncelleme: 2026-09-23 · Uygulama sürümü 3.0
+- Son güncelleme: 2026-09-24 · Uygulama sürümü 3.0
 
 ## Haftalık menün ve market listen hazır.
 

@@ -1,6 +1,6 @@
 # Maya — Gizlilik Politikası / Privacy Policy
 
-> Son güncelleme / Last updated: 23 Eylül 2026 · Uygulama sürümü 3.0
+> Son güncelleme / Last updated: 24 Eylül 2026 · Uygulama sürümü 3.0
 > https://necatidogrul.github.io/maya-site/privacy.html
 
 ## Kısaca (TR)

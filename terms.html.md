@@ -1,6 +1,6 @@
 # Maya — Kullanım Şartları / Terms of Use
 
-> Son güncelleme / Last updated: 23 Eylül 2026
+> Son güncelleme / Last updated: 24 Eylül 2026
 > https://necatidogrul.github.io/maya-site/terms.html
 
 Maya'yı indirerek veya kullanarak bu şartlar kabul edilmiş olur. Maya'yı bağımsız iOS
