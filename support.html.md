@@ -1,7 +1,7 @@
 # Maya — Destek / Support
 
 > https://necatidogrul.github.io/maya-site/support.html
-> İletişim / Contact: support@necatidogrul.dev — genellikle 48 saat içinde yanıt.
+> İletişim / Contact: necatidogrul7@gmail.com — genellikle 48 saat içinde yanıt.
 > Yazarken iPhone modeli, iOS sürümü ve Maya sürümü (Ayarlar sekmesinin en altında) çok yardımcı olur.
 
 ## Menü ve market listesi (TR)
@@ -48,7 +48,7 @@ olduğundan emin olun. Hâlâ açılmıyorsa App Store makbuzunun ekran görünt
 
 **Verilerimin silinmesini istiyorum**
 Uygulamayı silmek cihazdaki her şeyi siler. Sunucudaki kota sayaçları ve anonim abone kaydı için
-support@necatidogrul.dev adresine "veri silme talebi" konusuyla yazın; talepler 30 gün içinde
+necatidogrul7@gmail.com adresine "veri silme talebi" konusuyla yazın; talepler 30 gün içinde
 karşılanır.
 
 **Bildirimler** — günde tek hatırlatma (o günün yemeği) + market gününde bir hatırlatma. Kapatmak
@@ -86,7 +86,7 @@ your App Store receipt.
 produced, and the photo is dropped — nothing is written to storage.
 
 **I want my data deleted.** Deleting the app removes everything on the device. For server-side
-usage counters and your anonymous subscription record, write to support@necatidogrul.dev. We
+usage counters and your anonymous subscription record, write to necatidogrul7@gmail.com. We
 handle requests within 30 days.
 
 **Notifications.** One reminder a day plus one shopping-day reminder. Turn them off in iOS

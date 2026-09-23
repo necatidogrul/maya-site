@@ -68,7 +68,7 @@ Uygulama "olduğu gibi" sunulur. Yasaların izin verdiği azami ölçüde toplam
 Şartlar değişirse tarih güncellenir; abonelik koşullarında esaslı değişiklik uygulama içinde
 duyurulur. Türkiye Cumhuriyeti hukuku uygulanır; Apple standart EULA'sı da geçerlidir
 (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
-İletişim: support@necatidogrul.dev
+İletişim: necatidogrul7@gmail.com
 
 ---
 
@@ -124,4 +124,4 @@ claim.
 
 **Changes, law, contact.** If these terms change, the date above changes; material subscription
 changes are announced in the app. Governed by the laws of the Republic of Türkiye; Apple's
-standard EULA also applies. Contact: support@necatidogrul.dev
+standard EULA also applies. Contact: necatidogrul7@gmail.com

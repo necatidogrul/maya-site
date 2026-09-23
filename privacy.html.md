@@ -15,7 +15,7 @@
 
 ## 1. Veri sorumlusu
 Maya'yı bağımsız iOS geliştiricisi **Necati Doğrul** yayımlıyor (KVKK'da veri sorumlusu, GDPR'da
-controller). İletişim: support@necatidogrul.dev
+controller). İletişim: necatidogrul7@gmail.com
 
 ## 2. Cihazda kalanlar
 Haftalık menü, market listesi, favori tarifler, damak tercihleri, alerji ve sevilmeyenler
@@ -91,7 +91,7 @@ hatırlatma daha. Cihazda zamanlanır; iOS Ayarlar → Bildirimler → Maya'dan 
 1. **Cihazdakiler:** uygulamayı silmek menüyü, listeyi, favorileri, tercihleri ve görsel
    önbelleğini siler.
 2. **Anahtarlıktaki kurulum kimliği:** uygulama silinince kalabilir. Tamamen temizlemek için
-   support@necatidogrul.dev adresine yazın; sunucudaki kota sayaçları silinir.
+   necatidogrul7@gmail.com adresine yazın; sunucudaki kota sayaçları silinir.
 3. **Abonelik kaydı:** aynı adrese yazarak RevenueCat'teki anonim abone kaydının silinmesi talep
    edilebilir. Bu kayıt silinirse satın almayı geri yükleme zorlaşır; abonelik hâlâ Apple
    tarafında duruyorsa iptal Apple hesap ayarlarından yapılmalıdır.
@@ -109,7 +109,7 @@ ilgili ülkenin belirlediği yaştan, genellikle 16) küçük çocuklardan biler
 Erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği, itiraz ve rızayı geri
 çekme hakları. İşleme dayanakları: uygulamanın istenen işi yapması için sözleşmenin ifası;
 kullanım ölçümü ve uygulama bütünlüğü için meşru menfaat; bildirimler ve fotoğraf/mikrofon
-erişimi için açık rıza. Başvuru: support@necatidogrul.dev. Türkiye'de KVKK Kurumu'na, AB'de
+erişimi için açık rıza. Başvuru: necatidogrul7@gmail.com. Türkiye'de KVKK Kurumu'na, AB'de
 bulunulan ülkenin veri koruma otoritesine şikâyet hakkı saklıdır.
 
 ## 12. Yurt dışına aktarım
@@ -119,7 +119,7 @@ standart sözleşme hükümleri (SCC) ve veri işleme sözleşmeleri kapsamında
 
 ## 13. Değişiklikler ve iletişim
 Sayfa değişirse yukarıdaki tarih güncellenir; toplanan veri türü genişlerse uygulama içinde de
-duyurulur. İletişim: support@necatidogrul.dev (genellikle 48 saat içinde yanıt).
+duyurulur. İletişim: necatidogrul7@gmail.com (genellikle 48 saat içinde yanıt).
 
 ---
 
@@ -131,7 +131,7 @@ preferences and — if you use it — your photo go to the AI model, and **photo
 **we do not track you** (no ad SDK, no tracking SDK, no IDFA, no linking with third-party data
 for advertising or measurement); we do not sell data or share it with data brokers.
 
-**Controller.** Necati Dogrul, independent iOS developer. support@necatidogrul.dev
+**Controller.** Necati Dogrul, independent iOS developer. necatidogrul7@gmail.com
 
 **On the device.** Weekly plan, shopping list, saved recipes, taste preferences, allergies and
 dislikes, portion settings, app settings and the cache of downloaded recipe photographs. There is
@@ -180,7 +180,7 @@ on the device. Revoke in iOS Settings → Notifications → Maya.
 
 **Deleting your data.** Deleting the app removes everything on the device. For the keychain
 install identifier and server-side usage counters, and for the anonymous RevenueCat record, write
-to support@necatidogrul.dev; we answer within 30 days. On request we also ask Google to delete
+to necatidogrul7@gmail.com; we answer within 30 days. On request we also ask Google to delete
 analytics records tied to your Firebase installation ID. Because there is no account we cannot
 verify identity, so writing from the device in question is enough.
 
@@ -190,10 +190,10 @@ knowingly collect data from children under 13 (or the age set by your country in
 **Your rights (GDPR / KVKK).** Access, rectification, erasure, restriction, portability,
 objection, withdrawal of consent. Legal bases: performance of a contract, legitimate interest
 (usage measurement, app integrity) and consent (notifications, photo/microphone access). Write to
-support@necatidogrul.dev; you may also complain to your national data protection authority.
+necatidogrul7@gmail.com; you may also complain to your national data protection authority.
 
 **International transfers.** AI requests are processed in Google Cloud's europe-west3 (Frankfurt,
 Germany) region. Google and RevenueCat run parts of their infrastructure in the United States
 under standard contractual clauses and data processing agreements.
 
-**Contact.** support@necatidogrul.dev — we usually reply within 48 hours.
+**Contact.** necatidogrul7@gmail.com — we usually reply within 48 hours.
